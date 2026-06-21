@@ -1,0 +1,69 @@
+<div class="medicine-detail">
+  <a href="/" class="back-link">&larr; Back</a>
+
+  <h1><%= medicine.name %></h1>
+  <% if (medicine.english_name) { %>
+    <p class="english-name"><%= medicine.english_name %></p>
+  <% } %>
+
+  <div class="meta">
+    <span class="badge"><%= medicine.group_name %></span>
+  </div>
+
+  <div class="info-grid">
+    <% if (medicine.active_ingredient) { %>
+      <div class="info-card">
+        <h3>Active Ingredient</h3>
+        <p><%= medicine.active_ingredient %></p>
+      </div>
+    <% } %>
+    <% if (medicine.dosage) { %>
+      <div class="info-card">
+        <h3>Dosage</h3>
+        <p><%= medicine.dosage %></p>
+      </div>
+    <% } %>
+    <% if (medicine.who_can_use) { %>
+      <div class="info-card">
+        <h3>Who Can Use</h3>
+        <p><%= medicine.who_can_use %></p>
+      </div>
+    <% } %>
+    <% if (medicine.treats) { %>
+      <div class="info-card">
+        <h3>Treats</h3>
+        <p><%= medicine.treats %></p>
+      </div>
+    <% } %>
+    <% if (medicine.contraindications) { %>
+      <div class="info-card">
+        <h3>Contraindications</h3>
+        <p><%= medicine.contraindications %></p>
+      </div>
+    <% } %>
+    <% if (medicine.side_effects) { %>
+      <div class="info-card">
+        <h3>Side Effects</h3>
+        <p><%= medicine.side_effects %></p>
+      </div>
+    <% } %>
+    <% if (medicine.warnings) { %>
+      <div class="info-card">
+        <h3>Warnings</h3>
+        <p><%= medicine.warnings %></p>
+      </div>
+    <% } %>
+    <% if (medicine.similar_medicines) { %>
+      <div class="info-card">
+        <h3>Similar Medicines</h3>
+        <p><%= medicine.similar_medicines %></p>
+      </div>
+    <% } %>
+    <% if (medicine.notes) { %>
+      <div class="info-card">
+        <h3>Notes</h3>
+        <p><%= medicine.notes %></p>
+      </div>
+    <% } %>
+  </div>
+</div>

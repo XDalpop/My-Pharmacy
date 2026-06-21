@@ -1,0 +1,15 @@
+My-Pharmacy running on http://localhost:3000
+[0mGET / [32m200[0m 18.486 ms - 1710[0m
+[0mGET /api/groups [32m200[0m 2.239 ms - 587[0m
+[0mGET /api/search?q=vit [32m200[0m 3.726 ms - 2[0m
+[0mPOST /api/medicines [32m201[0m 17.555 ms - 29[0m
+[0mGET /api/search?q=para [32m200[0m 1.528 ms - 124[0m
+[0mGET /medicine/1 [32m200[0m 3.234 ms - 320[0m
+[0mGET / [32m200[0m 8.203 ms - 1893[0m
+[0mGET /favicon.ico [33m404[0m 2.694 ms - 150[0m
+[0mGET /?group=antibiotics [32m200[0m 2.992 ms - 2039[0m
+[0mGET /?group=allergy [32m200[0m 2.763 ms - 2035[0m
+[0mGET /?group=colon-medicines [32m200[0m 2.570 ms - 2043[0m
+[0mGET /?group=diabetes-medicines [32m200[0m 2.118 ms - 2046[0m
+[0mGET / [36m304[0m 8.933 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 0.815 ms - 150[0m
